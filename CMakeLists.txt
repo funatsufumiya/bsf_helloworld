@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD 14)
 # Build an executable from the provided C++ files
 add_executable(myApp "Main.cpp")
 # Path to where you have installed bsf
-set(bsf_INSTALL_DIR "/Users/funatsu/lab/bsf_v1.1.0b_osx")
+set(bsf_INSTALL_DIR "../bsf/install")
 # Let CMake know where to find the Findbsf.cmake file (at current folder)
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}")
 # Find bsf libraries and headers
